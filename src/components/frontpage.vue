@@ -13,7 +13,7 @@
           placeholder="Enter your name"
           class="custom-input"
         >
-        <v-btn color="danzer" dark @click="enterRoom" href="/chat">Enter</v-btn>
+        <v-btn color="danzer" dark @click="enterRoom" href="/chat1">Enter</v-btn>
       </div>
       <!-- Your front page content goes here -->
     </div>
@@ -50,11 +50,11 @@ export default {
         // this.$store.dispatch('setName', this.name);
         // this.$router.push('/chat');
        
-        axios.post('http://127.0.0.1:8000/edit/name/', {name: this.name})
-        .then(({ data }) => {
-          alert('Event saved!');
-          // this.name = ''
-        });
+        // axios.post('http://127.0.0.1:8000/edit/name/', {name: this.name})
+        // .then(({ data }) => {
+        //   alert('Event saved!');
+        //   // this.name = ''
+        // });
 
       },
 

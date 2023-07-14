@@ -2,6 +2,8 @@ import { createWebHistory, createRouter } from "vue-router"
 import Home from './components/Home.vue'
 import frontpage from './components/frontpage.vue'
 import chat from './components/chat.vue'
+import chat1 from './components/chat1.vue'
+import pubnubChat from './components/pubnubChat.vue'
 
 
 
@@ -29,6 +31,20 @@ const routes =[
     name: 'chat',
     path: '/chat',
     component: chat
+
+},
+    {
+
+    name: 'chat1',
+    path: '/chat1',
+    component: chat1
+
+},
+    {
+
+    name: 'pubnubChat',
+    path: '/pchat',
+    component: pubnubChat
 
 },
 
