@@ -22,7 +22,8 @@ const routes =[
     {
 
     name: 'frontpage',
-    path: '/',
+    path: '/front',
+    // path: '/',
     component: frontpage
 
 },
@@ -36,7 +37,8 @@ const routes =[
     {
 
     name: 'chat1',
-    path: '/chat1',
+    path: '/',
+    // path: '/chat1',
     component: chat1
 
 },
