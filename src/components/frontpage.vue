@@ -13,7 +13,8 @@
           placeholder="Enter your name"
           class="custom-input"
         >
-        <v-btn color="danzer" dark @click="enterRoom" href="/chat1">Enter</v-btn>
+        <v-btn color="danzer" dark @click="enterRoom" href="https://glowing-moonbeam-cb0bbc.netlify.app">Enter</v-btn>
+        <!-- <v-btn color="danzer" dark @click="enterRoom" href="/chat1">Enter</v-btn> -->
       </div>
       <!-- Your front page content goes here -->
     </div>

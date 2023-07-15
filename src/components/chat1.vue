@@ -1,6 +1,6 @@
 <template>
     <v-container>
-      <h1 class="text-center">Brocken_Heart_Chat - <span v-if="connection_ready" class="connection-ready">Connection ready!</span></h1>
+      <h1 class="text-center"><strong>ASQUARE </strong><span v-if="connection_ready" class="connection-ready">Gloomo-chat!</span></h1>
   
       <v-card v-if="nickname" class="message-container" ref="messages">
         <h2 v-if="connection_error" class="error">Connection error!</h2>
@@ -119,7 +119,9 @@
     text-transform: uppercase;
   }
   .connection-ready {
-    color: greenyellow;
+    color: rgb(180, 23, 233);
+    /* color: linear-gradient(#A5121A, #6E0C11 */
+/* ); */
   }
   
   .message-container {
